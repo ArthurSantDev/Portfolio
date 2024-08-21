@@ -1,0 +1,228 @@
+.container {
+   max-width: 1200px;
+   min-height: calc(100vh - 40px);
+   background-repeat: no-repeat;
+} @media (max-width: 1000px) {
+   .container {
+      min-width: 100%;
+      max-width: 100%;
+   }
+}
+ 
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1150px;
+} @media (max-width: 1000px){
+   .center {
+      width: 100%; 
+   }
+}
+ 
+.Title {
+   padding: 100px 0 0;
+   font-size: 36px;
+   font-weight: 600;
+   color: var(--primary);
+} @media (max-width: 1000px) {
+   .Title {
+      padding: 110px 0 0;
+      font-size: 34px;
+      color: var(--primary-100);
+   }
+}
+.TitleCenter {
+   text-align: center;
+   padding: 110px 0 0;
+   font-size: 36px;
+   font-weight: 600;
+   margin-bottom: -10px;
+   color: var(--primary);
+} @media (max-width: 1000px) {
+   .TitleCenter {
+      padding: 110px 0 0;
+      font-size: 34px;
+      color: var(--primary-100);
+   }
+}
+
+.pt {
+   padding-top: 30px;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+.appear{
+   animation: appear 2s;
+   animation-timeline: view();
+   animation-range: cover 0% cover 22%
+}
+@keyframes appear {
+   from {
+      opacity: 0;
+      transform: translateX(-20px);
+   }
+ 
+   to {
+      opacity: 1;
+      transform: translateX(0px);
+   }
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 210px;
+   height: 45px;
+   gap: 5px;
+   font-size: 13px;
+   font-weight: 600;
+   border-radius: 50px;
+   border: 1px solid var(--button-M);
+   background-color: var(--button-back);
+   color: var(--button-M);
+   box-shadow: var(--shadow);
+   transition: 0.2s;
+} 
+
+.button i {
+   font-size: 20px;
+   margin: 0 -2px -4px -4px;
+}
+
+@media (min-width: 1000px) {
+   .button:hover {
+      color: var(--hover-100);
+      border-color: var(--primary);
+      background-color: var(--hover-900);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+   }
+}
+
+@media (max-width: 1000px) {
+   .button {
+      margin: 10px 0 0 0;
+   }
+}
+
+.routes-button {
+   margin-top: 25px;
+}@media (max-width: 1000px) {
+   .routes-button {
+      margin-top: 15px;
+   }
+}
+
+.back-to-home {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   height: 60px;
+   border-radius: 15px;
+   border: 1px solid var(--button-M);
+   background-color: var(--button-back);
+   color: var(--button-M);
+   box-shadow: var(--shadow);
+   transition: 0.2s;
+}
+.back-to-home svg {
+   font-size: 30px;
+}
+@media (max-width: 1000px) {
+   .back-to-home svg {
+      font-size: 30px;
+   }
+}
+
+ 
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+ 
+.UpDown {
+   animation: UpDown 3s infinite;
+}
+@keyframes UpDown {
+   0% {
+     transform: translateY(1px);
+   }
+   50% {
+     transform: translateY(-1px); /* Ajuste o valor conforme necessário */
+   }
+   100% {
+     transform: translateY(1px);
+   }
+}
+ 
+.projectAnimation {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 0px;
+   width: 970px;
+   padding: 30px;
+   margin: 30px 0;
+   border-radius: 12px;
+   border: 1px solid var(--project-border);
+   box-shadow: var(--shadow);
+   transition: all .3s;
+}
+.projectAnimation {
+   border-radius: 12px;
+   background: var(--project);
+   z-index: -2;
+} .projectAnimation::before{
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   border-radius: 12px;
+   background: var(--project-hover);
+   transition: all .3s;
+   z-index: -1;
+} .projectAnimation::before{
+   width: 100%;
+   height: 0;
+ 
+   top: 0%;
+   left: 0%;
+} .projectAnimation:hover::before{
+   height: 100%;
+ }
+ 
+ 
+/* @media (min-width: 500px) {
+   .routes-button{
+   overflow: hidden;
+   transition: all .2s;
+}
+.routes-button::before{
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: var(--active-background);
+   transition: all .3s;
+   z-index: -1;
+} 
+.routes-button::before{
+   width: 0;
+   height: 100%;
+ 
+   top: 0%;
+   left: 0%;
+} 
+.routes-button:hover{
+   color: var(--hover-100);
+   transform: translateY(-2px);
+   box-shadow: var(--shadow-hover);
+} 
+.routes-button:hover::before{
+   width: 100%;
+}
+} */
