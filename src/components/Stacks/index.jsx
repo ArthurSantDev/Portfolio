@@ -41,7 +41,9 @@ const index = () => {
              <img src="/assets/stacks/nextjs.svg"/>
              <img src="/assets/stacks/vue.svg"/>
              <img src="/assets/stacks/redux.svg"/>
+             <img src="/assets/stacks/auth.svg"/>
              <img src="/assets/stacks/scrollreveal.svg"/>
+             <img src="/assets/stacks/react-icons.svg"/>
              <img src="/assets/stacks/mui.svg"/>
              <img src="/assets/stacks/tailwind.svg"/>
              <img src="/assets/stacks/sass.svg"/>
@@ -73,7 +75,9 @@ const index = () => {
             <img src="/assets/stacks/nextjs.svg"/>
             <img src="/assets/stacks/vue.svg"/>
             <img src="/assets/stacks/redux.svg"/>
+            <img src="/assets/stacks/auth.svg"/>
             <img src="/assets/stacks/scrollreveal.svg"/>
+            <img src="/assets/stacks/react-icons.svg"/>
             <img src="/assets/stacks/mui.svg"/>
             <img src="/assets/stacks/tailwind.svg"/>
             <img src="/assets/stacks/sass.svg"/>

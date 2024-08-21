@@ -19,7 +19,7 @@ const index = () => {
           interval: 200
         };
       
-        if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+        if (window.innerWidth > 768) {
             ScrollReveal().reveal('.project', {
               ...revealSettings,
               origin: 'left',
@@ -33,7 +33,7 @@ const index = () => {
             });
           }
       
-        if (window.innerWidth > 768) { // Ajuste o tamanho conforme necessário
+        if (window.innerWidth > 768) {
           ScrollReveal().reveal('.reverse', {
             ...revealSettings,
             origin: 'right'
@@ -69,6 +69,7 @@ const index = () => {
                         <img src="/assets/stacks/vite-js.svg"/>
                         <img src="/assets/stacks/react.svg"/>
                         <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/react-icons.svg"/>
                         <img src="/assets/stacks/css.svg"/>
                         <img src="/assets/stacks/html.svg"/>
                         <img src="/assets/stacks/github.svg"/>
@@ -190,8 +191,8 @@ const index = () => {
                         <img src="/assets/stacks/nextjs.svg"/>
                         <img src="/assets/stacks/react.svg"/>
                         <img src="/assets/stacks/typescript.svg"/>
-                        <img src="/assets/stacks/tailwind.svg"/> 
-                        <img src="/assets/stacks/github.svg"/>
+                        <img src="/assets/stacks/react-icons.svg"/>
+                        <img src="/assets/stacks/tailwind.svg"/>
                     </div>
                     <div className='button-project-section'>
                         <div class="button-project github-btn">
@@ -268,11 +269,11 @@ const index = () => {
                     <div class="stack-icons">
                         <img src="/assets/stacks/vite-js.svg"/>
                         <img src="/assets/stacks/react.svg"/>
-                        <img src="/assets/stacks/scrollreveal.svg"/>
                         <img src="/assets/stacks/javascript.svg"/>
+                        <img src="/assets/stacks/scrollreveal.svg"/>
+                        <img src="/assets/stacks/react-icons.svg"/>
                         <img src="/assets/stacks/sass.svg"/>
                         <img src="/assets/stacks/css.svg"/>
-                        <img src="/assets/stacks/github.svg"/>
                     </div>
                     <div className='button-project-section'>
                         <div class="button-project github-btn">
@@ -309,9 +310,9 @@ const index = () => {
                         <img src="/assets/stacks/vite-js.svg"/>
                         <img src="/assets/stacks/react.svg"/>
                         <img src="/assets/stacks/javascript.svg"/>
-                        <img src="/assets/stacks/tailwind.svg"/>
+                        <img src="/assets/stacks/react-icons.svg"/>
                         <img src="/assets/stacks/font-awesome.svg"/>
-                        <img src="/assets/stacks/github.svg"/>
+                        <img src="/assets/stacks/tailwind.svg"/>
                     </div>
                     <div className='button-project-section'>
                         <div class="button-project github-btn">

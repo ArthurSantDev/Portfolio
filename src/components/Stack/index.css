@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 801px) {
    .stack-box:hover {
       color: var(--primary);
       border-color: var(--primary);
@@ -84,7 +84,7 @@
 
 
 
-@media (max-width: 1000px) 
+@media (max-width: 800px) 
 {
    .stack-box:active {
       color: var(--primary);

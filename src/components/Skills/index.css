@@ -1,8 +1,8 @@
-@media (min-width: 500px) {
+@media (min-width: 801px) {
    .skill:hover {
    border-color: var(--primary);
    background-color: var(--back-hover);
-   transform: translateY(-5px);
+   transform: translateY(-3px);
    box-shadow: var(--shadow-hover);
    }
 
@@ -92,7 +92,7 @@
    color: var(--four);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
    
    .skill:active {
       border: 1px solid var(--primary);
